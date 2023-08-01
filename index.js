@@ -1,6 +1,9 @@
 const express = require("express");
 const app = express();
+const path = require('path');
 
+
+app.use("/public", express.static(path.join(path.resolve(), "public")));
 
 //setup view engine
 app.set('view engine','ejs');
@@ -16,23 +19,6 @@ app.get("/about", (req,res)=>{
 })
 app.get("/contact", (req,res)=>{
     res.render("contact")
-})
-app.get("/services", (req,res)=>{
-    const data = [
-        {
-            
-            service:"Web Development"
-        },
-        {
-            
-            service:"Mobile App Development"
-        },
-        {
-            
-            service:"WordPress Development"
-        }
-    ]
-    res.render("services",{users:data});
 })
 
 
