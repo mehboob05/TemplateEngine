@@ -3,7 +3,7 @@
 }
 /* navbar section start */
 .navbar-collapse ul li a:hover{
-    color: #ff624b;
+    color: #ff6652;
 }
 .navbar-brand{
     font-size: 28px;
@@ -22,8 +22,8 @@
 .sliderhead {
     color: #ffada5;
     padding: 15px;
-    border-radius: 10px
-
+    border-radius: 10px;
+    font-weight: 600;
 }
 .sliderpara{
     color: #0b043e;
@@ -33,7 +33,8 @@
 }
 .search-item{
     background-color: white;
-    width: 430px;
+    /* width: 430px; */
+    padding: 0px 26px;
     line-height: 40px;
     border-radius: 8px;
 }
@@ -44,16 +45,17 @@
     padding: 4px;
 }
 .search-input{
-    width: 210px;
+    /* width: 210px; */
+    padding: 10px 60px;
     line-height: 50px;
     border: none;
 }
 .search-btn {
-    width: 90px;
-    height: 43px;
-    padding: 1px;
+    /* width: 90px;
+    height: 43px; */
+    padding: 5px 35px;
     border: none;
-    background-color: #aa49f0;
+    background-color: #9c4df4;
     color: #fff;
     border-radius: 10px;
     margin-right: 2px;
@@ -96,7 +98,7 @@
 .coursebtn{
    padding: 15px 25px;
     border: none;
-    background-color: #aa49f0;
+    background-color: #9c4df4;
     color: #fff;
     padding-left: 19px;
     padding-top: 15px;
@@ -184,11 +186,11 @@
    font-weight: 600;
    font-size: 14px;
    border-radius: 10px; 
- border: 1px solid #aa49f0;
-  color: #aa49f0;
+ border: 1px solid #9c4df4;
+  color: #9c4df4;
 }
 .crd1btn:hover{
-    background-color: #aa49f0;
+    background-color: #9c4df4;
     color: #fff;
 }
 .num2{
@@ -226,11 +228,11 @@
         font-weight: 600;
         font-size: 14px;
         border-radius: 10px; 
-      border: 1px solid #aa49f0;
-       color: #aa49f0;   
+      border: 1px solid #9c4df4;
+       color: #9c4df4;   
 }
 .curbtn:hover{
-    background-color: #aa49f0;
+    background-color: #9c4df4;
     color: #fff;
 }
 
@@ -245,11 +247,12 @@
     margin-top: 60px;
 }
 .skillbox{
-    color: #aa49f0;
+    color: #9c4df4;
     padding: 15px;
     margin-left: 40px;
     border-radius: 10px;
-    background-color: rgb(227, 227, 255);
+    background-color: #e4e2f4;
+    font-weight: 600;
 }
 .skillhead{
     margin-top: 25px;
@@ -270,7 +273,7 @@
 .regbtn{
    padding: 10px 20px;
     border: none;
-    background-color: #aa49f0;
+    background-color: #9c4df4;
     color: #fff;
     border-radius: 10px;
     font-size: 14px;
@@ -307,7 +310,7 @@
     margin-left: 100px;
     border-radius: 50%;
     border-bottom-right-radius: 10px;
-    background-image: linear-gradient(#ff624b, rgb(246, 221, 215));
+    background-image: linear-gradient(#fe705e, #f8eaed);
    
 }
 .careerhead{
@@ -327,7 +330,7 @@
     width: 150px;
     height: 55px;
     border: none;
-    background-color: #aa49f0;
+    background-color: #9c4df4;
     color: #fff;
     border-radius: 10px;
     font-size: 14px;
@@ -429,7 +432,7 @@
     border: none;
    margin-left: 150px;
    margin-top: 20px;
-   background-color: #3d375c;
+   background-color: #3b3563;
    color: white;
    border-radius: 5px;
   }
@@ -440,7 +443,7 @@
   .subbtn{
     padding: 15px 30px;
     border: none;
-    background-color: #aa49f0;
+    background-color: #9c4df4;
     color: #f7eff7;
     border-top-right-radius:5px ;
     border-bottom-right-radius: 5px;
@@ -476,7 +479,7 @@
 }
 .fa-brands:hover {
     border-radius: 50%;
-    color: #ff624b;
+    color: #ff6652;
   }
 .social-icons  a {
     text-decoration: none;
