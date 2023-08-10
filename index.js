@@ -22,6 +22,6 @@ app.get("/contact", (req,res)=>{
 })
 
 
-app.listen(3004, ()=>{
+app.listen(3006, ()=>{
     console.log("Server is Running")
 })
